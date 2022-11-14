@@ -1,19 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_3", "pz_3\pz_3.csproj", "{D4994419-1295-4389-9CB4-12A0957530DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_3", "pz_3\pz_3.csproj", "{D4994419-1295-4389-9CB4-12A0957530DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_4", "pz_4\pz_4.csproj", "{3F9F01D8-C92C-44A2-BFF3-C9CC4C4F4F42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_4", "pz_4\pz_4.csproj", "{3F9F01D8-C92C-44A2-BFF3-C9CC4C4F4F42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_5", "pz_5\pz_5.csproj", "{7F16292B-F565-449C-BEDA-E2E24A8E65CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_5", "pz_5\pz_5.csproj", "{7F16292B-F565-449C-BEDA-E2E24A8E65CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_6", "pz_6\pz_6.csproj", "{01F194C6-2833-434E-83FD-C3892AA4FD94}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_6", "pz_6\pz_6.csproj", "{01F194C6-2833-434E-83FD-C3892AA4FD94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_8", "pz_8\pz_8.csproj", "{04F92132-D259-4F74-8D3B-ACC941B9A31F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_8", "pz_8\pz_8.csproj", "{04F92132-D259-4F74-8D3B-ACC941B9A31F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_9", "pz_9\pz_9.csproj", "{12CC1243-4ECD-4C96-B6C2-20A85BD0991C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pz_9", "pz_9\pz_9.csproj", "{12CC1243-4ECD-4C96-B6C2-20A85BD0991C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pz_10", "pz_10\pz_10.csproj", "{6EA344FB-0393-4935-A83F-63F70324754F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{12CC1243-4ECD-4C96-B6C2-20A85BD0991C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12CC1243-4ECD-4C96-B6C2-20A85BD0991C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12CC1243-4ECD-4C96-B6C2-20A85BD0991C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA344FB-0393-4935-A83F-63F70324754F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA344FB-0393-4935-A83F-63F70324754F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA344FB-0393-4935-A83F-63F70324754F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA344FB-0393-4935-A83F-63F70324754F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
