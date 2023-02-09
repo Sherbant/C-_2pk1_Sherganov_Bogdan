@@ -27,12 +27,10 @@ namespace pz_14
             }
             else if (i == 3)
             {
-                Console.WriteLine("Введите число от 1 до бесконечности:");
+                Console.WriteLine("Введите два положительных числа:");
                 int A = Convert.ToInt32(Console.ReadLine());
                 int B = Convert.ToInt32(Console.ReadLine());
-                int b = 2;
-                int q = 88;
-
+                GetChisla(A, B);
             }
         }
         public static int GetRecursion(int a, int d, int n)
@@ -67,9 +65,22 @@ namespace pz_14
                 return GetGemrec(result, q, n - 1);
             }
         }
-        public static int GetChisla(int a, int b)
+        public static void GetChisla(int a, int b)
         {
-
+            if (a > b)
+            {
+                Console.WriteLine(a);
+                GetChisla(a - 1, b);
+            }
+            else if (a < b)
+            {
+                Console.WriteLine(a);
+                GetChisla(a + 1, b);
+            }
+            else
+            {
+                Console.WriteLine(a);
+            }
         }
 
     }
