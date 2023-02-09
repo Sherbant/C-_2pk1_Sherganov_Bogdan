@@ -27,6 +27,7 @@ namespace pz_14
             }
             else if (i == 3)
             {
+                Console.WriteLine("Введите число от 1 до бесконечности:");
                 int A = Convert.ToInt32(Console.ReadLine());
                 int B = Convert.ToInt32(Console.ReadLine());
                 int b = 2;
@@ -66,7 +67,7 @@ namespace pz_14
                 return GetGemrec(result, q, n - 1);
             }
         }
-        public static int GetChisla(int A, int B, int b, int q)
+        public static int GetChisla(int a, int b)
         {
 
         }
