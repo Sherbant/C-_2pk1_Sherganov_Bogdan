@@ -4,6 +4,9 @@
     {
         static void Main(string[] args)
         {
+            {
+                Console.WriteLine("25 вариант\n");
+            }
             double rul_lenght = 7; /* Длина рулона */
             double rul_width = 1; /* Ширина рулона */
             double wall_height = 3; /* Высота стены */
